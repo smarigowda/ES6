@@ -47,7 +47,6 @@ var obj2 = {
 // console.log(obj1.foo()) // expecting 42 but returns undefined
 console.log(obj2.foo()) // returns 42 as expected
 
-
 // you can not call .call on an arrow function
 // because it does not have a this context
 // it just ignores
